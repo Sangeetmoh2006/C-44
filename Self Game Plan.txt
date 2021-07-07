@@ -1,0 +1,28 @@
+Spaceship with a type of blaster
+
+Have to shoot at asteroids so that the spaceship is clear of obstructions and can reach the base
+
+If asteroid or satellite crashes into the spaceship, the game is over
+
+Cannot shoot at satellites because it helps the space ship navigate; if satellite is shot, your time will be shortened
+
+Spaceship is also low on fuel so there is only limited amount of time for spaceship to reach the base
+
+Characters- spaceship is the PC and asteroids, satellites will be the NPCs
+
+
+Goal- is to reach the "space base" before time is over
+
+Rules- arrow keys(UP, LEFT, RIGHT) for movement, space key to shoot, satellite must not shot because time will be reduced, if obstacle crashes into the spaceship, the game is over, the game is won when the spaceship reaches the "space base"
+
+Balance- Amount of time should be balanced along with the distance to reach the "space base"
+
+Chance vs Skill- Chance: where obstacles spawn to hinder user; Skill: should not be shooting satellites but only asteroids
+
+Feedback- sounds for: when asteroid is hit by shot, when satellite is hit by shot, when either obstacle crashes into spaceship, when the "space base" is reached, when shot is shot, game over image and game won image will be displayed
+
+Adaptivity- After some time has passed, the obstacles will spawn faster
+
+Story- The spaceship is low on fuel and must reach the "space base" before allotted time. There will be obstacles on the way which are asteroids and satellites. The spaceship must only shoot the asteroids and not the satellites because the satellites provide direction. If a satellite is shot, the allotted time will be reduced by 3-5 seconds. If any obstacle crashes into the spaceship, the game is over. The game is won once the spaceship reaches the "space base" within the allotted time.
+
+*Using p5 library and VS Code to create game*
